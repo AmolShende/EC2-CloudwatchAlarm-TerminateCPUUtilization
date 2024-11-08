@@ -37,6 +37,6 @@ To test the alarm setup, you can simulate high CPU utilization by running a CPU-
 
 This configuration will help automate the termination process, optimizing your costs and resources by removing instances with high, sustained CPU loads.
 
-To trigger alarm through AWS CLI or Cloudshell
+### To trigger alarm through AWS CLI or Cloudshell
 aws cloudwatch set-alarm-state --alarm-name test-ec2-testing --state-value ALARM --state-reason "Testing EC2 Alaram" --output json 
 Note :- Alaram name to be replaced
